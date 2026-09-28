@@ -2,7 +2,8 @@
 
 This guide documents the complete setup, configuration fixes, and custom Lua scripting required to enable console commands, fix GUI rendering, and achieve full Flight/Noclip in **Metal Eden** (Unreal Engine 5.3) using **RE-UE4SS**.
 
-[!IMPORTANT] When you complete this guide and F3 activates no clip, use noclip to fly in the air over the wall that is blocking you.  IMMEDIATELY disable noclip/fly with f3 to fall, otherwise you will fly away out of bounds.
+[!IMPORTANT] 
+When you complete this guide and F3 activates no clip, use noclip to fly in the air over the wall that is blocking you.  IMMEDIATELY disable noclip/fly with f3 to fall, otherwise you will fly away out of bounds.
 
 ## 1. Overview & Common Misconceptions
 

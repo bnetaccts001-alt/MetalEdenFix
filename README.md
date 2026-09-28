@@ -2,6 +2,8 @@
 
 This guide documents the complete setup, configuration fixes, and custom Lua scripting required to enable console commands, fix GUI rendering, and achieve full Flight/Noclip in **Metal Eden** (Unreal Engine 5.3) using **RE-UE4SS**.
 
+[!IMPORTANT] When you complete this guide and F3 activates no clip, use noclip to fly in the air over the wall that is blocking you.  IMMEDIATELY disable noclip/fly with f3 to fall, otherwise you will fly away out of bounds.
+
 ## 1. Overview & Common Misconceptions
 
 * **RE-UE4SS** (the active, maintained fork of `UE4SS-RE/RE-UE4SS`) **does support `CheatManager`**.
@@ -33,16 +35,11 @@ MetalEden\Binaries\Win64\
 To fix the white screen GUI crash and ensure proper console logging and overlay support, set your configuration as follows:
 
 ```
-[Engine]
-ConsoleEnabled = 1
-
-[GUI]
-EnableInGameGUI = 1
-
 [Debug]
 ConsoleEnabled = 1
 GuiConsoleEnabled = 0
 GuiConsoleVisible = 0
+EnableInGameGUI = 1
 
 ```
 
